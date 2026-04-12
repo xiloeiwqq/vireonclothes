@@ -205,7 +205,44 @@
     }
 
     .image-zoom-modal {
-        
+
+        &__dialog {
+            width: 95%;
+            flex-direction: column;
+            overflow-y: auto;
+            max-height: 90vh;
+        }
+
+        &__media {
+            min-width: 100%; 
+            width: 100%;
+        }
+
+        &__img {
+            max-height: 45vh; 
+        }
+
+        &__panel {
+            padding: 20px 15px;
+            width: 100%;
+            box-sizing: border-box;
+            gap: 12px;
+        }
+
+        &__product-title {
+            font-size: 16px;
+        }
+
+        &__product-description {
+            font-size: 13px;
+        }
+
+        &__nav {
+            width: 32px;
+            height: 32px;
+            font-size: 20px;
+        }
+
         &__product-price {
             font-size: 18px;
             margin-top: -5px;
