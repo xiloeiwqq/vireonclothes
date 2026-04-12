@@ -1,0 +1,39 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+    transition: padding 0.3s ease;
+}
+
+@media (max-width: 1024px) {
+    .center {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .product-box {
+        &__container {
+            gap: 40px;
+        }
+        &__sidebar {
+            min-width: 180px;
+        }
+    }
+
+    .product-content {
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .product {
+        width: calc(50% - 10px);
+    }
+
+
+    .about-brand__slider-img {
+        height: 400px;
+    }
+}

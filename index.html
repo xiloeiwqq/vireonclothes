@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIREON</title>
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <button class="menu-toggle" id="menuToggle" aria-label="Открыть меню">
+        <span class="menu-toggle__line"></span>
+        <span class="menu-toggle__line"></span>
+        <span class="menu-toggle__line"></span>
+    </button>
+
+    <div class="full-menu" id="fullMenu">
+        <nav class="full-menu__nav">
+            <ul class="full-menu__list">
+                <li><a href="#catalog" class="full-menu__link">Каталог</a></li>
+                <li><a href="#about" class="full-menu__link">О бренде</a></li>
+                <li><a href="#shipping" class="full-menu__link">Доставка</a></li>
+                <li><a href="#contacts" class="full-menu__link">Контакты</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="top center" data-theme="dark">
+        <img src="img/VIREON (1).svg" alt="vireon" class="top_img">
+    </div>
+
+    <div id="catalog" class="product-box center" data-theme="light">
+        <div class="product-content">
+            <article class="product">
+                <div class="product__img-wrapper" 
+                     data-title="футболка VIREON &laquo;01&raquo;"
+                     data-price="1 949 ₽"
+                     data-description="футболка выполнена из полусинтетической ткани футер 2‑нитка, края ткани необработаны."
+                     data-gallery="img/футболкачерная/1775759366897.png|img/футболкачерная/1775759493842.png|img/футболкачерная/1775759580156.png">
+                    <img src="img/футболкачерная/1775759366897.png" class="product__img" alt="Футболка черная">
+                </div>
+            </article>
+
+            <article class="product">
+                <div class="product__img-wrapper" 
+                     data-title="худи VIREON &laquo;02&raquo;"
+                     data-price="5 949 ₽"
+                     data-description="состоит из ткани футер 3-ех нитка петля без начеса,каждый элемент худи 2-ух слойный,за счет чего худи очень плотное, и открывает огромное количество вариантов костамизации,имеет большой и плотный капюшон,манжеты на худи стянуты это позвволяет худи прилегает к телу и имеет четкую форму."
+                     data-gallery="img/худакбелый/1775760367227.png|img/худакбелый/1775760214584.png|img/худакбелый/1775760430982.png">
+                    <img src="img/худакбелый/1775760367227.png" class="product__img" alt="худи белое">
+                </div>
+            </article>
+
+            <article class="product">
+                <div class="product__img-wrapper" 
+                     data-title="худи VIREON &laquo;03&raquo;"
+                     data-price="6 949 ₽"
+                     data-description="выполнен из ткани футер 3-ех нитка петля с микроначесом, худи позиционриет себя как нишевое, имеет черную тракторную молнию вдоль всего капюшона, за счет чего капюшен кастомизируется в крупный воротник(ну или во что то иное), имеет кроп силует с удлинненми 2-ными рукавами, по всей верхней части худи расположенный 3 пары пуговиц цвета никель"
+                     data-gallery="img/худакприкольный/1775759824058.png|img/худакприкольный/1775759918524.png|img/худакприкольный/1775760081301.png|img/худакприкольный/1775760127388.png">
+                    <img src="img/худакприкольный/1775759824058.png" class="product__img" alt="худак жесткий" style="margin-top: 35px;">
+                </div>
+            </article>
+
+            <article class="product" style="display: flex; justify-content: center;">
+                <div class="product__img-wrapper" 
+                     data-title="воротник VIREON &laquo;04&raquo;"
+                     data-price="749 ₽"
+                     data-description="выполнен из 100% хлопкой ткани футер 2-ух нитка, позиционирует как нищевый, имеет ассиметричный кровь и раскрывает абсолютно уникальные способы стилизации"
+                     data-gallery="img/шарфик/1775760551717.png|img/шарфик/1775760628693.png|img/шарфик/1775760712755.png">
+                    <img src="img/шарфик/1775760551717.png" class="product__img" alt="Шарф">
+                </div>
+            </article>
+        </div>
+    </div>
+
+    <section id="about" class="about-brand center" data-theme="light">
+        <div class="about-brand__text">
+            <h2 class="about-brand__title">о создании бренда,ценообразовании и упаковки</h2>
+            <p class="about-brand__description">
+                VIREON родился из тишины чистого холста, где сложный крой встречается с монохромной палитрой чёрного, белого и серого. бренд отвергает шум моды, предлагая анти-утверждения — вопросы формам и пространству, упакованные в зип-пакеты для сохранения покоя.
+            </p>
+        </div>
+
+        <div class="about-brand__slider">
+            <div class="about-brand__slider-track">
+                <img src="img/фотки модели/photo_2026-04-12_12-55-42.jpg" alt="Коллекция 1" class="about-brand__slider-img">
+                <img src="img/фотки модели/photo_2026-04-12_12-55-47.jpg" alt="Коллекция 2" class="about-brand__slider-img">
+                <img src="img/фотки модели/photo_2026-04-12_12-55-52.jpg" alt="Коллекция 3" class="about-brand__slider-img">
+                <img src="img/фотки модели/photo_2026-04-12_12-55-56.jpg" alt="Коллекция 4" class="about-brand__slider-img">
+            </div>
+        </div>
+    </section>
+
+    <section id="shipping" class="shipping center" data-theme="light">
+        <h2 class="shipping__title">доставка и оплата</h2>
+        <div class="shipping__content">
+            <div class="shipping__item">
+                <p class="shipping__text">отправляем заказы по всей России удобным для вас способом (СДЭК, Почта России). сроки зависят от вашего региона и рассчитываются индивидуально.<br><br>оплатить заказ можно через нашего менеджера.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacts" class="footer center" data-theme="light">
+        <div class="footer__left">
+            <div class="footer__contacts">
+                <div class="footer__block">
+                    <h4 class="footer__title">для заказа</h4>
+                    <a href="http://t.me/vireonmanager" class="footer__icons"><img src="img/telegram.svg" alt="telegram"></a>
+                </div>
+                <div class="footer__block">
+                    <h4 class="footer__title">тг-канал</h4>
+                    <a href="http://t.me/VIREON1" class="footer__icons"><img src="img/telegram.svg" alt="telegram"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__center">
+            <img src="img/mini_logo.svg" class="footer__logo" alt="Логотип">
+        </div>
+
+        <div class="footer__right">
+            <div class="footer__block">
+                <h4 class="footer__title">VIREON<br>#2016</h4>
+            </div>
+            <div class="footer__block">
+                <h4 class="footer__title">тикток</h4>
+                <a href="http://www.tiktok.com/@oficialvireon?_r=1&_t=ZS-95TxKAXoPKO" class="footer__icons"><img src="img/tiktok.svg" alt="tiktok"></a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="image-zoom-modal" id="imageZoomModal" aria-hidden="true">
+        <div class="image-zoom-modal__backdrop"></div>
+        <div class="image-zoom-modal__dialog" role="dialog" aria-modal="true">
+            <button type="button" class="image-zoom-modal__close" aria-label="Закрыть">&times;</button>
+            <div class="image-zoom-modal__media">
+                <button type="button" class="image-zoom-modal__nav image-zoom-modal__nav--prev" aria-label="Предыдущее фото">&lsaquo;</button>
+                <img class="image-zoom-modal__img" id="imageZoomModalImg" src="" alt="">
+                <button type="button" class="image-zoom-modal__nav image-zoom-modal__nav--next" aria-label="Следующее фото">&rsaquo;</button>
+            </div>
+            <div class="image-zoom-modal__panel">
+                <p class="image-zoom-modal__counter" id="imageZoomCounter"></p>
+                <h3 class="image-zoom-modal__product-title" id="imageZoomProductTitle"></h3>
+                <p class="image-zoom-modal__product-price" id="imageZoomProductPrice"></p>
+                <div class="image-zoom-modal__description-box">
+                    <p class="image-zoom-modal__product-description" id="imageZoomProductDesc"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
