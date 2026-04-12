@@ -601,6 +601,36 @@ html {
   .footer__icons img {
     width: 24px;
   }
+  .image-zoom-modal__dialog {
+    width: 95%;
+    flex-direction: column;
+    overflow-y: auto;
+    max-height: 90vh;
+  }
+  .image-zoom-modal__media {
+    min-width: 100%;
+    width: 100%;
+  }
+  .image-zoom-modal__img {
+    max-height: 45vh;
+  }
+  .image-zoom-modal__panel {
+    padding: 20px 15px;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 12px;
+  }
+  .image-zoom-modal__product-title {
+    font-size: 16px;
+  }
+  .image-zoom-modal__product-description {
+    font-size: 13px;
+  }
+  .image-zoom-modal__nav {
+    width: 32px;
+    height: 32px;
+    font-size: 20px;
+  }
   .image-zoom-modal__product-price {
     font-size: 18px;
     margin-top: -5px;
